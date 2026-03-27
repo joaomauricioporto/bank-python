@@ -1,28 +1,53 @@
-# 🏦 Bank Python
+# Sistema Bancário em Python
+Este repositório contém o desenvolvimento de um sistema bancário simples criado em Python. O projeto permite registrar operações financeiras básicas, como depósitos, saques e consultas de saldo, além de fornecer um histórico de transações.
 
-Um sistema bancário simples e interativo rodando direto no terminal, totalmente desenvolvido em Python. Este projeto foi criado para gerenciar contas de usuários e simular operações bancárias do dia a dia de forma rápida e segura.
+O sistema foi pensado para fins acadêmicos, com foco em praticar lógica de programação, organização de código e estruturação de funções em Python.
 
-## 🚀 Funcionalidades
+Sobre o Projeto
+O objetivo deste projeto é simular um sistema bancário básico. A aplicação permite:
 
-O sistema possui um menu interativo que permite realizar as seguintes ações:
-- **Gerenciamento de Contas:** Criação e listagem de contas bancárias.
-- **Operações Financeiras:** Realização de saques, depósitos e transferências entre contas.
-- **Persistência de Dados:** Todas as contas e saldos são salvos e atualizados automaticamente em um arquivo `.json`, garantindo que nenhuma informação seja perdida ao fechar o programa.
+Criar contas simples
+Realizar depósitos e saques
+Consultar saldo
+Exibir extrato de movimentações
+Além disso, o projeto foi estruturado de forma modular para facilitar manutenção e futuras melhorias.
 
-## 📂 Estrutura do Projeto
+Tecnologias Utilizadas
+Python: Linguagem principal utilizada no desenvolvimento.
+Estrutura do Repositório
+O repositório está organizado da seguinte forma:
 
-O código foi dividido em módulos para facilitar a manutenção e leitura:
+main.py: Arquivo principal de execução do sistema.
+models.py: Estruturas relacionadas às contas e movimentações.
+services.py: Regras de negócio e operações bancárias.
+utils.py: Funções auxiliares e validações.
+Como Executar o Projeto
+Clone o repositório:
 
-- `main.py`: Ponto de entrada principal do sistema.
-- `menu.py`: Responsável por exibir a interface de texto e capturar as escolhas do usuário.
-- `operacoes.py`: Contém a lógica das transações financeiras (saque, depósito, transferência).
-- `contas.py`: Lida com a estrutura e regras das contas bancárias.
-- `armazenamento.py`: Módulo dedicado a ler e escrever as informações no banco de dados local.
-- `contas.json`: Arquivo que atua como banco de dados local do sistema.
+bash
+git clone https://github.com/joaomauricioporto/bank-python.git
+Navegue até o diretório do projeto:
 
-## 💻 Como executar na sua máquina
+bash
+cd bank-python
+Execute o sistema:
 
-1. Certifique-se de ter o [Python](https://www.python.org/) instalado.
-2. Clone este repositório:
-   ```bash
-   git clone [https://github.com/joaomauricioporto/bank-python.git](https://github.com/joaomauricioporto/bank-python.git)
+bash
+python main.py
+Funcionalidades do Sistema
+Criação de conta
+Depósito
+Saque
+Consulta de saldo
+Emissão de extrato
+Possíveis Melhorias Futuras
+Persistência de dados em arquivo ou banco de dados
+Interface gráfica
+Sistema de autenticação de usuário
+Transferências entre contas
+Relatórios financeiros
+Contribuição
+Contribuições são bem-vindas. Caso tenha sugestões de melhorias ou correções, fique à vontade para abrir uma issue ou enviar um pull request.
+
+Autor
+João Maurício Porto - <a href="https://github.com/joaomauricioporto">GitHub</a>
